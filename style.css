@@ -1,0 +1,61 @@
+body {
+    background-color: #1c232b; 
+    font: 14px 'Raleway', sans-serif ;
+    font-weight: 400;
+    font-style: italic;
+    color: azure;
+}
+h1{
+    margin-left: 500px;
+    margin-top: 50px;
+    color: rgba(75, 180, 184, 0.781);
+}
+div#border-radius-box {
+    background-color:  	#ff9f4c;
+    height: 430px;
+    margin: 50px 300px 80px 300px ;
+    
+}
+ul#border-radius-output{
+    background-color: #fff;
+    height: 340px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    line-break: auto;
+    align-self: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    overflow: scroll;
+}
+div#input-tl{
+    position: absolute;
+    left: 170px;
+    top: 133px;
+}
+div#input-tr{
+    position: absolute;
+    right: 170px;
+    top: 133px;
+}
+div#input-bl{
+    position: absolute;
+    left: 170px;
+    bottom: 90px;
+}
+div#input-br{
+    position: absolute;
+    right: 170px;
+    bottom: 90px;
+}
+input.change-border{
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+}
+li{
+    color: #1c232b;
+}
